@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    width: 80%;
+    right: 180px;
+    border: 8px solid #ad77ff;
+    background: white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-items{
+    margin-top: 25px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+.nav-items a:hover{
+    color: #4d0aad;
+    text-decoration: underline;
+}
+
+nav p{
+    margin-top: 25px;
+}
+
+.content{
+    position: absolute;
+    padding: 20px;
+    top: 430px;
+    left: 30px;
+    /* border: 2px solid black; */
+}
+
+.content p{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 9, 1px;
+    margin: 0, 0, 25px;
+}
+
+.content h6{
+    font-size: 60px;
+    font-weight: 600;
+    color: #4d0aad;
+    text-transform: capitalize;
+    line-height: 77px;
+    margin: 0 0 40px;
+    max-width: 811px;
+}
+.pp{
+    font-size: 16px!important;
+    text-transform: lowercase!important;
+    font-weight: 300!important;
+    line-height: 25px !important;
+    letter-spacing: 0px!important;
+    margin: 0 0 30px!important;
+    max-width: 557px!important;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    box-shadow: 0px 6px 36px 0px rgb(17 17 17/ 40);
+    border-radius: 100em;
+}
+
+main{
+    padding: 5px;
+}
+
+.sec_one{
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.box{
+    width: 75%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+}
+.box h6{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0 0 23px;
+}
+
+.box h4{
+    font-size: 21px;
+    margin: 20px 0px;
+    font-weight: 500;
+    line-height: 41px;
+}
+.box p{
+    max-width: 275px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+}
