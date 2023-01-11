@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
+    font-weight: 1500;
 }
 
 header{
@@ -104,7 +104,7 @@ main{
     border: 2px solid black;
     padding: 20px;
     border-radius: 15px;
-    background: white;
+    background: white
 }
 .box h6{
     text-transform: uppercase;
@@ -125,4 +125,97 @@ main{
     font-size: 14px;
     line-height: 25px;
     font-weight: 300;
+}
+
+.sec_two{
+    /* border: 2px solid black; */
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.sec_two> h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 5px;
+    color: #202020;
+    margin: 0 0 25px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text> h3{
+    margin: 0 0 55px;
+    max-width: 390px;
+    font-size: 42px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 65px;
+    letter-spacing: -1px;
+    color: #4d0aa4;
+}
+.text> p{
+    width: 447px;
+    margin-top: 2rem;
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_container{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 250px;
+    border-radius: 22px;
+    position: relative;
+}
+
+.image_container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+}
+
+.box_card{
+    box-shadow: 0 10px 35px rgb(0 0 0 /29%);
+    border-radius: 10px;
+    max-width: 86%;
+    margin: auto;
+    height: 90px;
+    position: absolute;
+    bottom: -80px;
+    background: white;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.box_card>span{
+    width: 900px;
+    height: 6px;
+    color: red;
+}
+
+.sp{
+    font-weight: 500;
+    line-height: 39px;
+    font-size: 22px;
+    color: #202020;
+}
+
+.box_card> p{
+    color: #9a9a9a;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    padding-left: 10px;
 }
